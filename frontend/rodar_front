@@ -1,0 +1,4 @@
+para rodar a aplicação siga as etapas abaixo
+cd frontend
+npm install
+npm run start

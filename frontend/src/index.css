@@ -1,0 +1,31 @@
+/* src/index.css */
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--texto);
+}
+
+a {
+  text-decoration: none;
+  color: var(--roxo-primario);
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--roxo-escuro);
+}
+
+.btn {
+  background: var(--roxo-primario);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--roxo-escuro);
+}

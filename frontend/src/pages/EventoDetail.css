@@ -1,0 +1,40 @@
+.evento-detail {
+  max-width: 1000px;
+  margin: 60px auto;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: var(--roxo-primario);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 24px;
+  align-items: start;
+}
+
+.detail-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.detail-info h2 {
+  color: var(--roxo-primario);
+  margin-bottom: 12px;
+}
+
+.detail-info p {
+  margin-bottom: 24px;
+  color: #444;
+}
+
+@media (max-width: 900px) {
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+}
